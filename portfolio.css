@@ -1860,6 +1860,7 @@ textarea {
 }
 .Blog-box-3 {
     width: 100%;
+    height: 1000px;
 }
 
 .blog-write-3 h2:nth-child(2) {
@@ -1868,7 +1869,7 @@ textarea {
 }
 
 .last-sect {
-    height: 240vh;
+    height: 500vh;
 }
 .last-sect-text {
     display: flex;
@@ -1876,12 +1877,14 @@ textarea {
 .last-sect-text h2:nth-child(2) {
     font-size: 35px;
     letter-spacing: 1px;
+    gap: 20px;
 }
 .two-last-div {
     display: flex;
     flex-direction: column;
     padding: 0%;
     gap: 70px;
+    height: 1000px;
 }
 .first-div {
     width: 100%;
