@@ -927,7 +927,7 @@ transition: .5s ease-in-out;
 }
 
 .my-des-query {
-    display: none;
+     display: none; 
 }
 
 /* ================CLIENTS SIDE============= */
@@ -1421,7 +1421,7 @@ transition: .5s ease-in-out;
     height: 500px;
     /* background-color: aqua; */
     display: flex;
-    padding: 10px 12px;
+    padding: 10px 20px;
     gap: 35px;
     margin-top: 30px;
 }
@@ -1430,7 +1430,7 @@ transition: .5s ease-in-out;
     height: 770px;
     background: linear-gradient(to bottom,rgb(214, 214, 214),white);
     border-radius: 10px;
-    padding: 35px;
+    padding: 20px;
     box-shadow: 8px 8px 35px rgb(0, 0, 0, 0.20);
 
 }
@@ -1474,7 +1474,7 @@ transition: .5s ease-in-out;
 }
 .the-text h2 {
     color: rgba(46, 45, 45, 0.815);
-    font-size: 20px;
+    font-size: 17px;
     line-height: 5px; 
 
 }
@@ -1625,6 +1625,27 @@ textarea {
 
 
 
+
+/* MODAL */
+
+#nft-dashboard-modal {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+#modal-exit {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+
+
+
  @media (min-width:320px) and (max-width:767px) {
     .sidepart-profile {
         display: none;
@@ -1652,6 +1673,37 @@ textarea {
     }
     .overlay-button {
         margin-top: 50px;
+    }
+
+
+    /* ====================== */
+    #popup-div {
+        width: 80%;
+        height: 1000px;
+        top: -140px;
+        padding: 10px 0px;
+    }
+    .contents {
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 0px; */
+    }
+    .contents-writeup {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contents-writeup p {
+        font-size: 20px;
+    }
+    .contents-writeup h3 {
+        font-size: 10px;
+    }
+    .contents button {
+        margin-left: 0px;
     }
     .three-div-sect {
         /* display: flex; */
@@ -1944,7 +1996,6 @@ textarea {
 .two-last-div {
     display: flex;
     flex-direction: column;
-    padding: 0%;
     gap: 70px;
     height: 1000px;
 }
@@ -1975,8 +2026,8 @@ textarea {
 /* =================================== */
 .my-des-query {
     width: 100%;
-    height: fit-content;
-    background-color: red ;
+    height: 100vh;
+    background-color: yellow;
 }
 
 /* .my-des-stages {

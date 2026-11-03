@@ -32,3 +32,16 @@ document.addEventListener("click", () => {
 //         clickSound.play()
 //     })
 // })
+
+
+const nftModal = document.getElementById("nft-dashboard-modal")
+const exitNftModal = document.getElementById("modal-exit")
+const onlineFoodMOdalLink = document.getElementById("online-food-link")
+
+exitNftModal.addEventListener("click", () => {
+    nftModal.style.display = "none"
+})
+
+onlineFoodMOdalLink.addEventListener("click", () => {
+    nftModal.style.display = "block"
+})
